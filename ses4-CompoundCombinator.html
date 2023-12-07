@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การเลือกเอลิเมนต์ด้วย Compound และ Combinator</title>
+    <style>
+        .myClass{
+            text-decoration: underline;
+        }
+        p.myClass{
+            font-size: 70%;
+            color: white;
+            background-color: red;
+        }
+        /* div p {
+            color: red;
+            text-decoration: underline;
+        } */
+        aside > p{
+            background-color: rgb(9, 255, 0);
+        }
+        /* h1 ~ P {
+            color: red;
+        } */
+        h2+p{
+            font-style: italic;
+            color: rgb(2, 10, 10);
+        }
+        p{
+            font-style: normal;
+            color: blue;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>การเลือกเอลิเมนต์ด้วย Compound และ Combinator</h1>
+    <p class="myClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam quasi sed consequuntur dicta, illo laboriosam pariatur facilis magni a, assumenda veritatis repellendus? Aliquam neque sapiente cum iure voluptas eius?</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nam.</p>
+    </div>
+    <aside>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, at.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, at.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, at.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, at.</p>
+    </aside>
+    <article>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </article>
+    <Div>
+        <h1>การปรับราคารถยนต์ในปี 2566</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div>
+            <h2>ราคารถยนต์ไฟฟ้า ปี 2566</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </Div>
+    <div>
+        <article>
+            <h2>First Article</h2>
+            <p>First paragragh of your article</p>
+            <p>Hollo CSS! This is good for your site</p>
+            <p>Delail of your site HERE!</p>
+        </article>
+        <article>
+            <h2>Second Article</h2>
+            <p>First paragragh of your article</p>
+            <p>Hollo CSS! This is good for your site</p>
+            <p>Delail of your site HERE!</p>
+        </article>
+    </div>
+</body>
+</html>
