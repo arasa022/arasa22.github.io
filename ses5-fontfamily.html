@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>กำหนดฟอนต์ด้วย Font Family</title>
+    <style>
+        h1{
+            text-decoration: overline;
+            text-decoration-style: wavy;
+        }
+        h1, p{
+            font-family: verdana, Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-family: myfont;
+            font-size: 14px;
+        }
+        @font-face{
+            font-family: myfont;
+            src: url("C:\Users\66309010022\Documents\GitHub\arasa22.github.io\font\THSarabun.ttf") format("truetype");
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            background-color: #e3e3e3;
+            padding: 2px;
+            line-height: 1.5rem;
+        }
+        span{
+            color: aqua;
+            background-color: bisque;
+            padding: 1px;
+            line-height: 120%;
+        }
+    </style>
+</head>
+<body>
+    <h1>กำหนดฟอนต์ด้วย Font Family</h1>
+    <p>การกำหนดฟอนต์ที่เหมาะสมกับตัวอักษรบนเว็บเพจเป็นส่วนหนึ่งที่ทำให้เว็บของเราดูน่าสนใจมากขึ้น</p>
+    <h2>การกำหนดฟอนต์แบบพิเศษด้วย @font-face</h2>
+    <p>
+        เป็นคูณสมบัติที่ให้เราสามารถเลือกใช้งานฟอนต์ได้อิสระมากขึ้น
+    </p>
+    <div id="mainDiv">
+        <h3>Fiction Hit</h3>
+        <p><span>Perter Fan have</span> been waitionfor his normal nose all fo his life.</p>
+        <h3>Sport News</h3>
+        <p>Man City knooked Arsenal 3:1 yesterday</p>
+    </div>
+</body>
+</html>
