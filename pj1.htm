@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<nav class="w3-bar w3-black">
+  <a href="http://127.0.0.1:5500/pj1.htm" class="w3-button w3-bar-item">Home</a>
+  <a href="#About" class="w3-button w3-bar-item">About</a>
+</nav>
+
+
+<section>
+  <center><img class="mySlides" src="1040050887.jpg"
+  style="width: 20%; height: 20%;"></center>
+  <center><img class="mySlides" src="12.jpg"
+  style="width: 20%; height: 20%;"></center>
+  <center><img class="mySlides" src="ligo2-01.png"
+  style="width: 20%; height: 20%;"></center>
+</section>
+<br>
+<br>
+
+
+
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">THE BLOG</h2>
+  <p class="w3-opacity"><i>ประวัติส่วนตัว</i></p>
+  <p class="w3-justify">นางสาวอาฬสา เหลาพันนา สทท.1/1 ชื่อเล่น แนท รหัสนักศึกษา 66309010022</p>
+  <p class="w3-justify">วันเกิด 31 กรกฎาคม 2547</p>
+  <p class="w3-justify">อายุ 19 ปี</p>
+  <p class="w3-justify">เบอร์ 0817931927</p>
+  <p class="w3-justify">Email : s66309010022@kktech.ac.th</p>
+  
+</section>
+
+
+<section class="w3-row-padding w3-center w3-light-grey">
+  
+  <center><article class="w3-third"></center>
+    <p>Arasa Laopanna</p>
+    <img src="IMG_5275.jpg" alt="Random Name" style="width:30%">
+    <h2>ประวัติการศึกษา</h2>
+  <p>สำเร็จการศึกษาระดับชั้นประถมจาก โรงเรียนบ้านยางคำ</p>
+  <p>สำเร็จการศึกษาระดับชั้นมัธยมตอนต้นจาก โรงเรียนบ้านยางคำ</p>
+  <p>สำเร็จการศึกษาระดับชั้นมัธยมตอนปลายจาก โรงเรียนจระเข้วิทยายน</p>
+  </article>
+  
+</section>
+<br>
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://www.facebook.com/arasa.laopanna?mibextid=LQQJ4d"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  
+</footer>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
